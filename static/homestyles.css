@@ -1,0 +1,291 @@
+/* header */
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Karla', sans-serif;
+}
+header {
+  background-image: url("https://scrimba.com/static/art/shape-baby.svg"), url("https://scrimba.com/static/art/shape-coral.svg");
+  background-position: 100px 70px, right bottom;
+  background-size: 32rem;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  }
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
+  .navbar {
+  padding: 15px 5px 20px;
+}
+.logo-img {
+  width: 7rem;
+  height: 2.5rem;
+  margin-left: 15px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-left: 25px;
+}
+.link-pro {
+  margin-left: 47rem;
+  background-color: #9ED5C5;
+  color: white;
+  border-radius: 100px;
+  padding:  6px 5px;
+  font-weight: bold;
+}
+.tagline {
+  margin-top: 6.8rem;
+  padding-left: 30px;
+}
+.tagline-head {
+  font-size: 5.5rem;
+  text-align: right;
+  font-weight: bolder;
+  text-shadow: 3px 3px white;
+}
+.tagline-para {
+  text-align: right;
+  font-size: 2rem;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+.tagline-btn {
+  text-decoration: none;
+  background-color: #FFDDD2;
+  border-radius: 5px;
+  color: black;
+  position: relative;
+  left: 51rem;
+  padding: 15px 20px;
+  top: 50px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.tagline-img {
+  position: relative;
+  top: 5px;
+  width: 15rem;
+  -webkit-transform: scaleX(-1);
+ transform: scaleX(-1)
+}
+/* features */
+#features {
+  padding: 30px 100px 50px 60px;
+}
+.feature-img-1 {
+  height: 13rem;
+  margin-right: 40px;
+}
+.feature-img-2 {
+  height: 18rem;
+  position: relative;
+  bottom: 50px;
+}
+.vl-1 {
+  border-left: 6px solid #f8ede3;
+  height: 74px;
+}
+.vl-2 {
+  border-left: 6px solid #edffec;
+  height: 74px;
+}
+.feature-p1 {
+  margin-top: 20px;
+  font-size: 22px;
+}
+/* Most Popular Courses */
+#most-popular-courses {
+  background-color: #FFECEF;
+  padding: 70px 120px 30px;
+}
+.head {
+  font-size: 2.2rem;
+  color: black;
+  margin-left: 28rem;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.para {
+  text-align: center;
+  font-size: 1.3rem;
+}
+.card {
+  height: 18rem;
+  width: 17rem;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.card-header {
+  text-align: right;
+  text-shadow: 1.5px 1.5px white;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: black;
+}
+.card-para {
+  font-size: 12px;
+  margin-bottom: 45px;
+}
+.card-img {
+  height: 45px;
+  width: 45px;
+  border-radius: 100px;
+}
+.card-level {
+  font-size: 12px;
+}
+.card-header-1 {
+  background: url("https://scrimba.com/static/art/shape-light-coral-edge-bottom.svg") #feffde no-repeat bottom;
+  background-size: 300px;
+}
+.card-header-2 {
+  background: url("https://scrimba.com/static/art/shape-lilac.svg") #caf7e3 no-repeat bottom;
+  background-size: 300px;
+}
+.card-header-3 {
+  background: url("https://scrimba.com/static/art/shape-baby.svg") #e4bad4 no-repeat top;
+  background-size: 300px;
+}
+.card-header-4 {
+  background: url("https://scrimba.com/static/art/shape-light-coral-edge-bottom.svg") #BFACE0 no-repeat bottom;
+  background-size: 500px;
+}
+.course-link {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 35.8rem;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 6px 15px;
+}
+/* Discord */
+#discord {
+  padding: 150px 100px 0 100px;
+  text-align: center;
+  background-image: url("https://scrimba.com/static/art/shape-light-coral.svg"), url("https://scrimba.com/static/art/shape-coral.svg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.discord-head {
+  font-size: 35px;
+  font-weight: bolder;
+}
+.discord-link {
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  font-size: 18px;
+  padding: 12px 20px;
+  font-weight: bold;
+}
+.discord-para {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.discord-img {
+  margin-top: 30px;
+}
+/* About the platform */
+#platform {
+  padding: 100px 120px 5px;
+  background-color: #f0e4d7;
+
+}
+.platform-img {
+  height: 17rem;
+  weight: 19rem;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+.platform-about {
+  background: url("https://scrimba.com/static/art/shape-baby.svg") no-repeat;
+  background-position: 200px 20px;
+  background-size: 220px;
+}
+.platform-head{
+  font-weight: bolder;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.platform-para {
+  font-size: 1.2rem;
+}
+.founder {
+  padding: 100px 0;
+}
+.founder-head-1 {
+  font-size: 2.8rem;
+  font-weight: bolder;
+}
+.founder-para {
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+.founder-head-2 {
+  font-size: 1.43rem;
+  font-style: italic;
+  font-weight: bold;
+}
+.column-1 {
+  background: url("https://scrimba.com/static/art/shape-lilac.svg") no-repeat center;
+}
+.founder-img {
+  height: 16.5rem;
+  width: 19rem;
+  margin-left: 145px;
+  border: 4px solid white;
+  border-radius: 10px;
+  transform: rotate(3deg);
+}
+.founder-name {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  text-shadow: 2px 2px white;
+}
+.founder-link {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 20px;
+  margin: 13px 0 20px 150px;
+  width: 250px;
+  text-align: center;
+}
+/* Footer */
+.footer {
+  padding: 50px 70px;
+  background: url("https://scrimba.com/static/art/shape-light-coral-edge-bottom.svg") no-repeat bottom left;
+}
+.footer-logo {
+  width: 8rem;
+  height: 2rem;
+}
+.footer-head {
+  font-weight: bold;
+  margin-left: 30px;
+}
+.logo-link {
+  padding: 0;
+  margin: 40px 0;
+  text-align: left;
+}
