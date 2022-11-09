@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="static\contactstyles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+	
+	<div class="screen">
+		<div class="screen__content">
+			<a class='home-btn' href="/">HOME</a>
+			<i class="login__icon fas fa-home home-fav"></i>
+			<form class="login" action="{{ url_for('contact') }}" method="post">
+				<div class="login_field form-group">
+					<input type="text" class="form-control" id="name" name="name" placeholder="Enter name" name="name">
+				</div>
+				<div class="login__field form-group">
+					<i class="login__icon fas fa-user"></i>
+					<input type="text" class="form-control login__input" id="contact" name="contact" placeholder="Contact No." name="contact">
+				</div>
+				<div class="login__field form-group">
+					<i class="login__icon fas fa-question"></i>
+					<input type="text" class="login__input form-control" id="query" name="query" placeholder="Query" name="query">
+				</div>    
+				<button type="submit" class="button login__submit">
+					<span class="button__text">Ask Query</span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>
+				
+			</form>
+		</div>
+		<div class="screen__background">
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>		
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>
+		</div>
+	</div>
+</div>        
+</body>
+</html>
