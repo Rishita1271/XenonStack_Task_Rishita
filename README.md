@@ -28,13 +28,13 @@ Students can sign up on the website if they are using it for the first time. The
 ![Screenshot (39)](https://user-images.githubusercontent.com/76098567/200951658-e04632a4-39da-4fcd-b29b-c86e2e53c1ab.png)
 ![Screenshot (46)](https://user-images.githubusercontent.com/76098567/200954606-9d49935f-9778-4d84-b819-f020069567e0.png)
 ![Screenshot (47)](https://user-images.githubusercontent.com/76098567/200955021-5cbc8e9b-a653-45a1-ba06-3d8f23a48726.png)
-![Screenshot (40)](https://user-images.githubusercontent.com/76098567/200951674-1b38e616-84e5-42a8-acdc-29de41019475.png)
+![Screenshot (40)](https://user-images.githubusercontent.com/76098567/200956359-d3a2a442-a55c-4999-8ec7-ab7734cd4b18.png)
 
 - #### Sign In Page
 Once the user is signed up, he can log into his account. It has checks against empty fields and incorrect field details. Once the user logs in, he will be redirected to the home page of his account with his name displaying on the top-right corner. He can also choose to log out of the system and as soon as the user logs out, he will be again redirected to the original homepage.
 
 ![Screenshot (41)](https://user-images.githubusercontent.com/76098567/200952414-021ad94d-8cba-48c1-84b1-ff93a6496a01.png)
-![Screenshot (42)](https://user-images.githubusercontent.com/76098567/200952424-541cf5a1-2ebf-4443-b095-725c2a7e2e13.png)
+![Screenshot (42)](https://user-images.githubusercontent.com/76098567/200956430-9652b847-a355-417f-8106-746690b092e3.png)
 
 - ### Contact Us Page
 The user has the flexibility to drop a query on the website. At the bottom of the page, there is a Contact Us link under Company tag and user can click it. It will lead him to a form where the user has to enter his details like name, contact no and query. The backend uses Python and MySQL to store the user's information in the database in a different table. It has checks against empty fields ans incorrect fields
